@@ -4,4 +4,9 @@ h2 {
 
 h3 {
   color: cyan;
+  margin-bottom: 0;
+}
+
+img {
+  justify-content: center;
 }
