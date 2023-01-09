@@ -1,17 +1,31 @@
+a {
+  color: darkolivegreen;
+}
+
+h1 {
+  color: darkolivegreen;
+}
+
 h2 {
-  color: blue;
+  color: olive;
 }
 
 h3 {
-  color: navy;
+  color: seagreen;
   margin-bottom: 0;
 }
 
-.phonology, tr:first-child  {font-weight: bold;}
-.phonology, tr:nth-child(n+2) > td:first-child {color: purple;}
-.phonology, tr:nth-child(n+2) > td:nth-child(4) {color: blue;}
+.sidebar{
+  
+}
 
-img {
-  justify-content: center;
-  border-radius: 10%;
+.mainbar{
+
+}
+.phonology, tr:first-child  {font-weight: bold;}
+.phonology, tr:nth-child(n+2) > td:first-child {color: olive;}
+.phonology, tr:nth-child(n+2) > td:nth-child(4) {color: green;}
+
+.pigeon {
+  
 }
