@@ -1,11 +1,15 @@
 h2 {
-  color: cyan;
+  color: blue;
 }
 
 h3 {
   color: navy;
   margin-bottom: 0;
 }
+
+.phonology, tr:first-child  {font-weight: bold;}
+.phonology, tr:nth-child(n+2) > td:first-child {color: purple;}
+.phonology, tr:nth-child(n+2) > td:nth-child(4) {color: blue;}
 
 img {
   justify-content: center;
