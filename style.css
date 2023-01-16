@@ -1,31 +1,12 @@
-a {
-  color: darkolivegreen;
-}
+a {color: darkolivegreen;}
+h1 {color: darkolivegreen;}
+h2 {color: olive;}
+h3 {color: seagreen; margin-bottom: 0;}
 
-h1 {
-  color: darkolivegreen;
-}
+.phonology tr:first-child  {font-weight: bold;}
+.phonology tr:nth-child(n+2) > td:first-child {color: olive;}
+.phonology tr:nth-child(n+2) > td:nth-child(4) {color: green;}
 
-h2 {
-  color: olive;
-}
+.cases tr:first-child, td:first-child  {font-weight: bold; color: darkolivegreen;}
+th {color: olive}
 
-h3 {
-  color: seagreen;
-  margin-bottom: 0;
-}
-
-.sidebar{
-  
-}
-
-.mainbar{
-
-}
-.phonology, tr:first-child  {font-weight: bold;}
-.phonology, tr:nth-child(n+2) > td:first-child {color: olive;}
-.phonology, tr:nth-child(n+2) > td:nth-child(4) {color: green;}
-
-.pigeon {
-  
-}
